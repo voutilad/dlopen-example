@@ -9,7 +9,7 @@ mylib.o: mylib.c
 
 .PHONY: clean
 clean:
-	rm -v *.o *.so main
+	rm -f *.o *.so main
 
 run: main
 	LD_LIBRARY_PATH=. ./main
