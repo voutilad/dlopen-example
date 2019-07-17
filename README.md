@@ -12,5 +12,5 @@ hot-reload, while the `main` program is running, modify the `speak()`
 function in `mylib.c` and rebuild the dynamic library (`libmylib.so`):
 
 ```bash
-$ make libmylib.so`.
+$ make libmylib.so
 ```
