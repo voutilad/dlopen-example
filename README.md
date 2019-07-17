@@ -8,6 +8,9 @@ $ make run
 ```
 
 You should see a string printed to stdout every 2 seconds. To try out
-hot-reload, while the `main` program is running, modify `mylib.c` and
-rebuild the dynamic library(`libmylib.so`) via `make libmylib.so`.
+hot-reload, while the `main` program is running, modify the `speak()`
+function in `mylib.c` and rebuild the dynamic library (`libmylib.so`):
 
+```bash
+$ make libmylib.so`.
+```
