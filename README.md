@@ -1,6 +1,7 @@
 A naive example of hot code reloading using a shared (dynamic) library.
 
-Tested on OpenBSD, but __might__ work on GNU/Linux et.al.
+Tested on OpenBSD, but __might__ work on GNU/Linux if you prefix these
+commands with: `LIBS=-ldl`
 
 Simple do:
 ```bash
@@ -14,3 +15,5 @@ function in `mylib.c` and rebuild the dynamic library (`libmylib.so`):
 ```bash
 $ make libmylib.so
 ```
+
+

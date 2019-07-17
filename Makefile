@@ -1,5 +1,5 @@
 main: libmylib.so
-	cc -Wall -o main -L. -lmylib main.c
+	cc -Wall -o main -L. main.c -lmylib ${LIBS}
 
 libmylib.so: mylib.o
 	ld --shared -o libmylib.so mylib.o
