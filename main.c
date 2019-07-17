@@ -1,5 +1,5 @@
-#include <unistd.h>
 #include <stdio.h>
+#include <unistd.h>
 #include <dlfcn.h>
 #include <err.h>
 
@@ -24,5 +24,6 @@ int main() {
 		}
 		sleep(2);
 	}
+	return 0;
 }
 
