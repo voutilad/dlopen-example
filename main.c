@@ -7,7 +7,7 @@ int main() {
 	void *lib;
 	void (*fn)();
 	for (;;) {
-		lib = dlopen("/home/dave/src/c/dl/libmylib.so", RTLD_LAZY);
+		lib = dlopen("./libmylib.so", RTLD_LAZY);
 		if (lib == NULL) {
 			errx(1, "dlopen");
 		}
